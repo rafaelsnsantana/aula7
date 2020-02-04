@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Form2</title>
+        <link href="form2.css" rel="stylesheet">
+    </head>
+
+    <body>
+            <h1>Formulário de Login</h1>
+            <hr>
+                
+            <form name="form-login" id="form-login" action="efetuar-login.php" method="POST">                    
+                    <label for="email"> E-mail:</label><br>
+                    <input type="email" name="email" id="email" class="campo-padrao" placeholder="seunome@dominio.com.br"><br>
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" maxlength="10" name="senha" id="senha" class="campo-padrao" required><br> 
+    
+                    <button type="submit" class="botao">Efetuar Login</button>
+                    <button type="submit" class="botao">Cancelar</button>
+            </form>
+
+    </body>
+</html>

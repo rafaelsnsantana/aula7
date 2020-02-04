@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Form7</title>
+        <link href="css/form7.css" rel="stylesheet">
+    </head>
+
+    <body>
+            <h1>Formulário</h1>
+            <hr>
+                
+            <form name="form-contato" id="form-contato" action="enviar-contato.php" method="POST">
+                    <label for="titulo">Título</label><br>
+                    <input name="titulo" id="titulo" class="campo-padrao" required><br>
+                    <label for="descricao">Descrição</label><br>
+                    <input name="descricao" id="descricao" class="campo-padrao" required><br>
+                    <label for="pasta-destino">Pasta Destino</label><br>
+                    <input name="pasta-destino" id="pasta-destino" class="campo-padrao" required>
+    
+                    <button type="submit" class="botao">Selecionar</button><br><br>
+                    <button type="submit" class="botao">Criar formulário</button><br>
+            </form> 
+    </body>
+</html>

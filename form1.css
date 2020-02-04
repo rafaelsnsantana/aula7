@@ -1,0 +1,15 @@
+form label{
+    
+    
+} 
+
+.campo-padrao{
+    width: 30%;
+    padding: 5px;
+    display: block;
+}
+
+.botao{
+    padding: 5px;    
+    margin-right: 10px;
+}

@@ -1,0 +1,6 @@
+Na primeira parte (antes do intervalo):
+- Realizamos das 19h às 20h30min. 
+Criação de formulários, o máximo que pudermos.
+
+Na segunda parte (depois do intervalo):
+- Iniciamos a junção de HTML com JS, através de funções.

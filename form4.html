@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Form4</title>
+        <link href="form4.css" rel="stylesheet">
+    </head>
+
+    <body>
+            <h1>Login</h1>
+            <hr>
+                
+            <form name="form-contato" id="form-contato" action="enviar-contato.php" method="POST">
+                    <label for="email">Seu e-mail</label><br>
+                    <input type="email" name="email" id="email" class="campo-padrao" placeholder="seunome@dominio.com.br"><br>
+                    <label for="senha">Sua senha</label><br>
+                    <input type="password" maxlength="10" name="senha" id="senha" class="campo-padrao" required><br> 
+                    <label for="manter-logado"><input type="checkbox" name="manter-logado" id="manter-logado"> Manter-me logado</label><br>
+    
+                    <button type="submit" class="botao">Logar</button><br><br>                    
+                            
+                    <label for="sem-conta">Ainda não tem conta? </label>                            
+                    <button type="submit" class="botao"><a href="#">Cadastre-se</a></button>
+                                      
+                    
+
+            </form> 
+    </body>
+</html>
